@@ -12,5 +12,11 @@ public void payment(long cardno,int cvv)
 }
 public void payment(String upi,String pass)
 {
-	System.out.println("Payment done via upi\n");}
+	System.out.println("Payment done via upi\n");
+	}
+public void payment(String email,int pass1)
+{
+	System.out.println("Payment done via paypal");
+	}
 }
+
